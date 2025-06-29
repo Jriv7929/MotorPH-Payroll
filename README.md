@@ -1,3 +1,5 @@
+# Hello! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
+
 MO-IT147 - Information Assurance and Security 1
 
 Term 3  SY 2024 - 25  Bachelor of Science in Information Technology  H3102
