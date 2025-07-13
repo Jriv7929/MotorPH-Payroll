@@ -219,12 +219,21 @@ public class Login extends javax.swing.JFrame {
          else if (jpass.getText().equals("")){
              JOptionPane.showMessageDialog(null, "Please fill out password");
          }
-         else if (juser.getText().contains("admin")&& jpass.getText().contains("1234")){
+         else if (juser.getText().contains("admin") && jpass.getText().contains("1234")){
              JOptionPane.showMessageDialog(null, "Login Successful");
       
              homepage pi = new homepage();
              pi.setVisible(true);
-         } 
+             this.dispose();
+         }       
+         else if (juser.getText().contains("emp2025") && jpass.getText().contains("4321")){
+             JOptionPane.showMessageDialog(null, "Login Successful");
+             
+             homepage2 pi = new homepage2();
+             pi.setVisible(true);
+             this.dispose();
+          
+         }
          else{
                  JOptionPane.showMessageDialog(null, "Wrong username or password !","Message", JOptionPane.ERROR_MESSAGE);
          }
